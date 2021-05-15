@@ -21,6 +21,11 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <a href="/editor" className={styles.card}>
+            <h2>Markdown editor</h2>
+            {/* <p>Find in-depth information about Next.js features and API.</p> */}
+        </a>
+
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
