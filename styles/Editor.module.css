@@ -18,10 +18,19 @@
   }
 
   .mdform {
-    width: 100%;
+    width: 50%;
     height: 100%;
+    resize: none;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(75 87 169 / 20%);
+    box-sizing: inherit;
+  }
+
+  .flex {
+    display: flex;    
   }
 
   .footer {

@@ -12,14 +12,17 @@ export default function Editor(){
             </Head>
             <main className={styles.main}>
                 <h1 className={styles.title}>Markdown Editor</h1>
-                <textarea
-                  name="md"
-                  id="md"
-                  placeholder="Markdownで記述"
-                  className={styles.mdform}
-                //   value={markdown}
-                //   onChange={setData}
-                ></textarea>
+                <dev className={styles.flex}>
+                    <textarea
+                    name="md"
+                    id="md"
+                    placeholder="Markdownで記述"
+                    className={styles.mdform}
+                    //   value={markdown}
+                    //   onChange={setData}
+                    ></textarea>
+                    <h2>Preview</h2>
+                </dev>
             </main>
         </div>
     )
