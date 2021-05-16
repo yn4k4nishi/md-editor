@@ -12,7 +12,7 @@ export default function Editor(){
             </Head>
             <main className={styles.main}>
                 <h1 className={styles.title}>Markdown Editor</h1>
-                <dev className={styles.flex}>
+                <div className={styles.flex}>
                     <textarea
                     name="md"
                     id="md"
@@ -22,7 +22,7 @@ export default function Editor(){
                     //   onChange={setData}
                     ></textarea>
                     <h2>Preview</h2>
-                </dev>
+                </div>
             </main>
         </div>
     )
