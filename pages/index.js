@@ -20,11 +20,11 @@ export default function Editor(){
                     name="md"
                     id="md"
                     placeholder="Write in Markdown"
-                    className="markdown-form resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none py-4 px-2"
+                    className="markdown-form resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4"
                     ></textarea>
                 </div>
                 <div className="w-1/2 mx-3">
-                  <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none py-4 px-2">
+                  <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4">
                     Preview Here
                   </div>
                 </div>
