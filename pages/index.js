@@ -21,7 +21,7 @@ export default function Editor(){
                     id="md"
                     placeholder="Write in Markdown"
                     className="markdown-form resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4"
-                    ></textarea>
+                  ></textarea>
                 </div>
                 <div className="w-1/2 mx-3">
                   <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4">
