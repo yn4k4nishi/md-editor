@@ -1,6 +1,6 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
-import '../lib/PostPreview'
+import PostPreview from '../lib/PostPreview'
 
 export default function Editor(){
   markdown: String;
