@@ -15,6 +15,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+  }
+
+  .md_title{
+    font-weight: 700;
+    padding: 7px 0;
+    margin: 20px 0;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    resize: none;
+    border: none;
+    width: 100%;
   }
 
   .mdform {
