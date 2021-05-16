@@ -15,7 +15,7 @@ export default function Editor(){
               name="post-title"
               id="post-title"
               placeholder="Title"
-              className="px-5 block mx-auto w-4/5 rounded-lg border-0 h-14 text-2xl font-mono font-bold focus:outline-none mb-0 resize-none"
+              className="px-5 block mx-auto w-4/5 rounded-lg border shadow-xl h-9 text-2xl font-mono font-bold focus:outline-none align-middle resize-none"
             />
             <div className="flex h-5/6">
               <div className="w-1/2 m-3">
