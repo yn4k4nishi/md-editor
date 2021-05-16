@@ -25,7 +25,7 @@ export default function Editor(){
                 </div>
                 <div className="w-1/2 mx-3">
                   <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none py-4 px-2">
-                    Preview
+                    Preview Here
                   </div>
                 </div>
               </div>
