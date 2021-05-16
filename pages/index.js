@@ -15,7 +15,7 @@ export default function Editor(){
               className="px-5 block mx-auto w-4/5 rounded-lg border-0 h-14 text-2xl font-mono font-bold focus:outline-none mb-0 resize-none"
               />
               <div className="flex h-5/6">
-                <div className="w-1/2 mx-3">
+                <div className="w-1/2 m-3">
                   <textarea
                     name="md"
                     id="md"
@@ -23,7 +23,7 @@ export default function Editor(){
                     className="markdown-form resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4"
                   ></textarea>
                 </div>
-                <div className="w-1/2 mx-3">
+                <div className="w-1/2 m-3">
                   <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4">
                     Preview Here
                   </div>
