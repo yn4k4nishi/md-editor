@@ -1,9 +1,16 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
+import React, { useState } from "react";
 import PostPreview from '../lib/PostPreview'
 
 export default function Editor(){
-  markdown: String;
+  const [markdown, setMarkdown] = useState();
+
+  const setData = (e: any) => {
+    e.preventDefault();
+
+    setMarkdown(e.target.value);
+  };
 
   return(
     <div className="post-form min-h-screen">
@@ -24,12 +31,13 @@ export default function Editor(){
                   id="md"
                   placeholder="Write in Markdown"
                   className="markdown-form resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4"
-                  // value={markdown}
+                  value={markdown}
+                  onChange={setData}
                 ></textarea>
               </div>
               <div className="w-1/2 m-3">
                 <div className="resize-none w-full h-full border shadow-xl mb-5 rounded-xl focus:outline-none p-4">
-                  <PostPreview></PostPreview>
+                  <PostPreview markdown={markdown}></PostPreview>
                 </div>
               </div>
             </div>
