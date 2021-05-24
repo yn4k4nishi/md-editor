@@ -15,7 +15,7 @@ export default function Editor(){
   return(
     <div className="post-form min-h-screen">
       <div className="h-screen flex flex-col">
-        <h1 className="text-center font-mono font-bold text-4xl py-10">Markdown Editor</h1>
+          <h1 className="text-center font-mono font-bold text-4xl py-10">Markdown Editor</h1>
         <div className="editor flex-grow flex-shrink">
           <form className="h-full">
             <textarea
@@ -40,6 +40,11 @@ export default function Editor(){
                   <PostPreview markdown={markdown}></PostPreview>
                 </div>
               </div>
+            </div>
+            <div className="text-center">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-20 h-10 focus:outline-none">
+                Save
+              </button>
             </div>
           </form>
         </div>
